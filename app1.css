@@ -1,0 +1,61 @@
+body {
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    color: #FF0000;
+}
+
+#p2 {
+    color: blue;
+}
+
+#d1 {
+    background-color: skyblue;
+}
+
+#d2 {
+    background-color: black;
+    color: white;
+}
+
+.d {
+    float: left;
+}
+
+ul > li {
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+}
+
+ul {
+    word-spacing: 30px;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 70px;  
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    background-color: aqua;
+    color: black;
+    border-radius: 45px;
+    float: right;
+    margin-top: -40px;
+    border: black;
+} 
+
+button:hover {
+    background-color: black;
+    color: white;
+}

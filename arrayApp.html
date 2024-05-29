@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .method {
+            margin-bottom: 20px;
+        }
+        .array-display {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Array Methods App</h1>
+        <div class="method">
+            <label for="pushInput">Push:</label>
+            <input type="text" id="pushInput">
+            <button onclick="pushElement()">Apply Push</button>
+        </div>
+        <div class="method">
+            <label for="popInput">Pop:</label>
+            <button onclick="popElement()">Apply Pop</button>
+        </div>
+        <div class="method">
+            <label for="shiftInput">Shift:</label>
+            <button onclick="shiftElement()">Apply Shift</button>
+        </div>
+        <div class="method">
+            <label for="unshiftInput">Unshift:</label>
+            <input type="text" id="unshiftInput">
+            <button onclick="unshiftElement()">Apply Unshift</button>
+        </div>
+        <div class="array-display" id="arrayDisplay">
+            Array: []
+        </div>
+    </div>
+
+    <script src="arrayApp.js"></script>
+</body>
+</html>
